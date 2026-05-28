@@ -1,6 +1,6 @@
 ---
 title: Capstone Dicod
-emoji: 📦
+emoji: 📖
 colorFrom: blue
 colorTo: green
 sdk: streamlit
