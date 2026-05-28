@@ -1,0 +1,11 @@
+medicine,service_level,status_alert,stock_sekarang,stock_coverage_days,expiry_days_remaining,near_expiry,lstm_forecast_demand,lstm_forecast_std,safety_stock,reorder_point,order_rekomendasi
+0,reguler,PERLU ORDER,1000,13.7,140,0,333.57,108.09,629.0,1630.0,9636
+1,reguler,AMAN,4611,12.7,124,0,345.95,122.36,667.0,1705.0,0
+2,reguler,AMAN,4406,11.2,699,0,409.15,129.75,768.0,1995.0,0
+3,reguler,AMAN,4687,13.3,151,0,350.26,124.37,676.0,1727.0,0
+4,reguler,AMAN,4701,17.0,120,0,362.33,112.46,677.0,1764.0,0
+5,reguler,AMAN,4691,5.8,218,0,392.84,107.21,715.0,1893.0,0
+6,reguler,AMAN,4624,9.7,679,0,362.77,110.56,675.0,1763.0,0
+7,rendah,AMAN,4694,18.8,40,1,328.36,123.03,502.0,1487.0,0
+8,reguler,AMAN,4621,9.6,105,0,306.92,121.52,612.0,1533.0,0
+9,rendah,AMAN,4634,11.7,80,1,326.0,116.89,492.0,1470.0,0

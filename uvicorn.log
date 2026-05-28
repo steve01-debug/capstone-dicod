@@ -1,0 +1,11 @@
+2026-05-28 09:50:47.923301: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:47] Overriding orig_value setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1779961847.925325   13246 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 13357 MB memory:  -> device: 0, name: Tesla T4, pci bus id: 0000:00:04.0, compute capability: 7.5
+INFO:     Started server process [13246]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[API Startup] Successfully loaded /content/data_feature_engineering.csv
+[API Startup] Successfully loaded /content/pharmasix_v3_lstm.keras
+[API Startup] Successfully loaded /content/pharmasix_v3_scalers.gz
+INFO:     127.0.0.1:56440 - "GET /check-all HTTP/1.1" 200 OK
