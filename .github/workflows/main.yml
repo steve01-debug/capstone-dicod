@@ -1,0 +1,22 @@
+name: Sync to Hugging Face
+on:
+  push:
+    branches: [main]
+
+  workflow_dispatch:
+
+jobs:
+  sync-to-hub:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Push to Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HUGGING_TOKEN }}
+        # Mengarah tepat ke repositori Hugging Face baru Anda: capstone-dicod
+        run: git push --force https://steve01-debug:$HF_TOKEN@huggingface.co/spaces/steve01-debug/capstone-dicod main
