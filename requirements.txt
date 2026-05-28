@@ -13,3 +13,10 @@ python-multipart==0.0.6
 scipy==1.11.4
 requests==2.31.0 # If you plan to keep the API testing code
 google-generativeai==0.3.0 # If you include chatbot functionality
+
+----
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
