@@ -18,5 +18,5 @@ jobs:
       - name: Push to Hugging Face
         env:
           HF_TOKEN: ${{ secrets.HUGGING_TOKEN }}
-        # Mengarah tepat ke proyek Space Hugging Face baru Anda
+        # Mengarah tepat ke Space Hugging Face baru Anda: capstone-dicod
         run: git push --force https://steve01-debug:$HF_TOKEN@huggingface.co/spaces/steve01-debug/capstone-dicod main
